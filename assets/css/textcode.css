@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #1e1e1e;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+.app {
+    position: relative;
+    display: flex;
+}
+
+.header {
+    position: relative;
+    width: 50px;
+    height: 100vh;
+    background-color: #111;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.header-wrap {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .nav, .social {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(63, 218, 122);
+    background-color: #1e1e1e;
+    padding: 5px 0;
+}
+.logo .single {
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.logo .name {
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav ul li{
+    margin: 10px 0;
+    color: #555;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 300ms ease-in-out;
+}
+
+.nav ul li:hover {
+    color:  rgb(63, 218, 122);
+}
+
+.social ul li {
+    margin: 5px 0;
+}
+
+.social ul li a{
+    color: #555;
+    transition: 300ms ease-in-out;
+}
+
+.social ul li a:hover {
+    color: rgb(63, 218, 122);
+    margin: 0 5px;
+}
+
+.main {
+    /* border: 1px solid red; */
+    width: 100%;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    /* justify-content: ; */
+}
+
+.intro-text h1 {
+    color: #ddd;
+    font-size: 4rem;
+    font-family: 'Arial';
+    letter-spacing: -5px;
+}
+
+.intro-text h1 span {
+    color: rgb(63, 218, 122);
+}
+
+.intro-text p {
+    color: rgb(114, 240, 162);
+    font-size: 90%;
+    letter-spacing: -1px;
+}
+
+.contact button {
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px dashed #555;
+    color: rgb(63, 218, 122);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
